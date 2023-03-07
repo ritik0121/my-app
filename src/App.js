@@ -171,7 +171,7 @@ function App() {
 
   const [expandedExpense, setExpandedExpense] = useState(null);
 
-  const handleExpenseClick = (expense) => {
+  const handleExpenseClick = (expense) => {   
     if (expense.id === expandedExpense) {
       setExpandedExpense(null);
     } else {
